@@ -14,8 +14,34 @@ let salary = prompt("What about your salary?");
 console.log(salary)
 
 
-  // TODO: Get user input to create and return an array of employee objects
+// if(isNaN(salary)){
+//   salary = 0
+// } else salary = salary;
+// console.log(salary);
+
+if(firstName && lastName && salary){
+let userAnswer = confirm('Would you like to add another employee?\nOK or Cancel');
+console.log(userAnswer)
+
+if(userAnswer === true) {
+  collectEmployees();
+} else if(userAnswer === false){
+  displayEmployees()
 }
+
+
+}
+}
+ 
+
+
+
+
+
+
+
+  // TODO: Get user input to create and return an array of employee objects
+
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
@@ -71,7 +97,7 @@ const displayEmployees = function(employeesArray) {
 const trackEmployeeData = function() {
   const employees = collectEmployees();
 
-  console.table(employees);
+  // console.table(employees);
 
   displayAverageSalary(employees);
 
