@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Develop",
+			"path": "../FSF-PT-EAST-MAY-050624-A/03-JavaScript/02-Challenge/Develop"
+		},
+		{
+			"name": "employee-tracker",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "employee-tracker"
+	}
+}

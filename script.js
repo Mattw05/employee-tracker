@@ -1,8 +1,19 @@
-// Get a reference to the #add-employees-btn element
+// Get a reference to the #add-employees-btn elementW
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
+
+
+
 
 // Collect employee data
 const collectEmployees = function() {
+let firstName = prompt("Hi, what is your first name?");
+console.log(firstName)
+let lastName = prompt("And your last name?");
+console.log(lastName)
+let salary = prompt("What about your salary?");
+console.log(salary)
+
+
   // TODO: Get user input to create and return an array of employee objects
 }
 
