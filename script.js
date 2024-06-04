@@ -22,7 +22,9 @@ let employees = {
 
 let employeesArray = [employees];
 
-
+if (employees.salary != typeof Number) {
+  employees.salary = 0;
+} else employees.salary = Number(salary);
 
 // if(isNaN(salary)){
 //   salary = 0
