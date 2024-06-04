@@ -7,14 +7,20 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 const collectEmployees = function() {
 
-let employeesArray = [];
+  let firstName = prompt("Hi, what is your first name?");
+  console.log(firstName)
+  let lastName = prompt("And your last name?");
+  console.log(lastName)
+  let salary = prompt("What about your salary?");
+  console.log(salary);
 
-let firstName = prompt("Hi, what is your first name?");
-console.log(firstName)
-let lastName = prompt("And your last name?");
-console.log(lastName)
-let salary = prompt("What about your salary?");
-console.log(salary);
+let employees = {
+  firstName: firstName, 
+  lastName: lastName,
+  salary: salary
+}
+
+let employeesArray = [employees];
 
 
 
@@ -31,7 +37,7 @@ if(userAnswer === true) {
   collectEmployees();
 } else if(userAnswer === false){
   employeesArray.push(firstName, lastName, salary);
-  console.log(employeesArray);
+return employeesArray;
 }
 
 
