@@ -24,7 +24,9 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 ```
 
 ## screen shots
+![E9F4F045-2D38-4EFD-8F85-D78E1120B53E](https://github.com/Mattw05/employee-tracker/assets/169001982/fcacca08-b3e0-43d2-aaa6-a63e7583d32b)
 
+![BDE096AE-F0EA-4C02-9016-887FA8CA0889](https://github.com/Mattw05/employee-tracker/assets/169001982/b09c0455-457b-4706-a656-a5305208688d)
 
 ## Grading Requirements
 
